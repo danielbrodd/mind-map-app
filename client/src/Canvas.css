@@ -1,0 +1,22 @@
+.canvas {
+  position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f0f0;
+    overflow: auto;
+    cursor: pointer;
+}
+.node {
+  position: absolute;
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1pc solid #333;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: move;
+    user-select: none;
+}
